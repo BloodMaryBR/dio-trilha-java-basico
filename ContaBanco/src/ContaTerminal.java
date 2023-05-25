@@ -7,6 +7,8 @@ public class ContaTerminal {
       //obter pela classe scanner os valores digitados no terminal
       // exibir a msg da conta criada
 
+System.out.println("####################################################### \n Bem vindo ao Banco Bonde dos Carecas! \n ####################################################### ");
+
 
 System.out.println("Olá Cliente. Digite  seu nome:");
 Scanner entrada = new Scanner(System.in);
