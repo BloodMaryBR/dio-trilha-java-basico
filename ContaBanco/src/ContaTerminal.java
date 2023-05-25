@@ -15,9 +15,13 @@ String cliente = entrada.nextLine();
       System.out.printf("Olá %s.Digite a sua agencia: ", cliente);
       
       String agencia = entrada.nextLine();
-      System.out.printf("A agencia digitada foi: %s", agencia);
-
-      System.out.printf("Agencia digitada foi: %s digite o numero da conta: " , agencia);
+          System.out.printf("Agencia digitada foi: %s digite o numero da conta: " , agencia);
+      String conta = entrada.nextLine();
+      System.out.printf( "Bem vindo senhor(a) %s ag: %S conta: %s \n digite o deposito inicial: " ,cliente,agencia,conta);
+      float deposito = entrada.nextFloat();
+      
+      System.out.printf( "Bem vindo senhor(a) %s seu saldo é  de %.2f e já está disponível para uso. " ,cliente, deposito);
+      
 
         
 
