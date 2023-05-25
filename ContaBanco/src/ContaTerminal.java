@@ -17,7 +17,7 @@ String cliente = entrada.nextLine();
       String agencia = entrada.nextLine();
       System.out.printf("A agencia digitada foi: %s", agencia);
 
-      System.out.printf("Agencia digitada foi: %s digite o numero da conta: " , agen);
+      System.out.printf("Agencia digitada foi: %s digite o numero da conta: " , agencia);
 
         
 
